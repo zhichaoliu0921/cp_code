@@ -172,10 +172,10 @@ def main():
     plt.show()
 
 
-    plt.plot(time_list, vel_x, 'b', linestyle='--')
-    plt.plot(time_list, vel_y, 'r', linestyle='--')
-    plt.xlim([0.0, time_list[-1]])
-    plt.show()
+    # plt.plot(time_list, vel_x, 'b', linestyle='--')
+    # plt.plot(time_list, vel_y, 'r', linestyle='--')
+    # plt.xlim([0.0, time_list[-1]])
+    # plt.show()
     #
     # plt.plot(time_list, acc_x, 'b', linestyle='--')
     # plt.plot(time_list, acc_y, 'r', linestyle='--')
@@ -192,7 +192,7 @@ def main():
     df['acc_x'] = acc_x
     df['acc_y'] = acc_y
 
-    df.to_csv('A:\MyDropbox\ARQ_simulation_result\Trajectories\contact_prior\env30\Traj5.csv')
+    # df.to_csv('A:\MyDropbox\ARQ_simulation_result\Trajectories\contact_prior\env30\Traj5.csv')
 
 
     num_collision = 0
