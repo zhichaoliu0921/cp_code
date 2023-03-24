@@ -1,7 +1,5 @@
 matplotlib~=2.2.5
 numpy~=1.16.6
 pandas~=0.24.2
-pip~=19.2.3
-setuptools~=41.2.0
 scipy~=1.2.3
 Shapely~=1.6.4.post2
